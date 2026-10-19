@@ -11,22 +11,22 @@ class Occ < Formula
   on_macos do
     on_arm do
       url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.3.0/occ-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "cff71f9696db98ee8de01a09403c9fc4602a85d2f6d11e6ee6ec2db2b9327f43"
+      sha256 "4d7e765bd9a1ace38eddfb4aa2d8d38eafe7eeaebbfb5a9044bc028b60e60680"
     end
     on_intel do
       url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.3.0/occ-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "77d6ba6830338cf9252f3cec0abd87ba4e4363c6363635176d87d37140ce84e2"
+      sha256 "eef0155a6572f7fe5f3b1b7d8010a835e657a2217513edf2a3993919646fbf40"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.3.0/occ-0.3.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3659b40271714f80c4c75ce6bd97ab707df0003d331fbb69da4012d526b6c0f8"
+      sha256 "9b4264a30b636cc737deadf9c7f11e03406464f8216306f4a2f91c382c3c5212"
     end
     on_intel do
       url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.3.0/occ-0.3.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9c5e3ac112eea0239380994d39916380602c61d88359d9ce867d9e873ebc1c82"
+      sha256 "448e7679e440d91dad054930e55a4589928d31d094fbb48039229086925054ff"
     end
   end
 
@@ -39,7 +39,7 @@ class Occ < Formula
       To make this machine an Office Cockpit node:
         occ register https://cockpit.kairelio.com
       That installs the node as a login service, "Office Cockpit Node" (a LaunchAgent on macOS,
-      a systemd --user unit on Linux), run through #{opt_bin}/occ so `brew upgrade occ` reaches it
+      a systemd --user unit on Linux), run through #{HOMEBREW_PREFIX}/bin/occ so `brew upgrade occ` reaches it
       at its next restart. Manage it with `occ node service install|uninstall|status|logs`.
       Do not also run the node with `brew services`: two nodes for one config exclude each other.
     EOS
