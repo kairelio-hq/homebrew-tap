@@ -10,23 +10,23 @@ class Occ < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.7.0/occ-0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4e9d95d81efb84b746a354d49b2c656a9d1d5e416643925d85ea5e9b34380aaf"
+      url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.7.1/occ-0.7.1-aarch64-apple-darwin.tar.gz"
+      sha256 "1590a81db5a8c15899c4724e1aacbb5d6c74060981fc5f0ad3128c4a7dabe4e0"
     end
     on_intel do
-      url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.7.0/occ-0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "015cba57b3d5ac03f531e4d2015630ed24e5ed6c93d5cb8228249e7fd375c462"
+      url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.7.1/occ-0.7.1-x86_64-apple-darwin.tar.gz"
+      sha256 "963dd11f429dcd0524db3936c174d4adcf77a1a3c2a2f90dcf2c7fdecff70831"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.7.0/occ-0.7.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "548319b9308e851e7d3c9a6fa64141ef9855dafd6ed5c9570f75e0500842b51a"
+      url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.7.1/occ-0.7.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ccfeaf4e2542f938bbe7f0ec7958ecea1dd9008e12c71ea7b650a86aa10d8332"
     end
     on_intel do
-      url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.7.0/occ-0.7.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3f4f1e03dbb10c3695357713b07176d90c60a05df029638f9a92a326de55ccb3"
+      url "https://github.com/kairelio-hq/occ-releases/releases/download/v0.7.1/occ-0.7.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "86399a9ea8dce2c0fd6d11ad799dd1601b6cdc61d5e5c02378bbe40285dd40ee"
     end
   end
 
